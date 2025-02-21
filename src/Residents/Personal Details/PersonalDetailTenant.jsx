@@ -165,7 +165,7 @@ function PersonalDetailTenant() {
               {/* Left Side - Profile Image */}
               <div className="col-lg-2 d-flex flex-column align-items-center">
                 <img
-                  src="../../Images/personalprofile.png"
+                  src="../src\Images\Profileimg.png"
                   className="img-thumbnail rounded-circle mb-2"
                   alt="Profile"
                   style={{ width: "120px", height: "120px" }}

@@ -20,11 +20,11 @@ import CreateComplaint from "./components/ComplaintTracking/CreateComplaint";
 import RequestTracking from "./components/ComplaintTracking/RequestTracking";
 
 // Register and login
-import Register from "./components/Register/Register";
-import Login from "./components/Login/Login"
-import ForgetPassword from "./components/ForgetPassword/ForgetPassword"
-import VerifyOtp from "./components/VerifyOtp/VerifyOtp"
-import ResetPassword from "./components/Resetpassword/ResetPassword"
+// import Register from "./components/Register/Register";
+// import Login from "./components/Login/Login"
+// import ForgetPassword from "./components/ForgetPassword/ForgetPassword"
+// import VerifyOtp from "./components/VerifyOtp/VerifyOtp"
+// import ResetPassword from "./components/Resetpassword/ResetPassword"
 import Rm from "./components/ResidentManagement/ResidentManagement";
 import ResidentForm from "./components/ResidentManagement/ResidentForm";
 import TenantForm from "./components/ResidentManagement/TenantForm";
@@ -174,90 +174,90 @@ const App = () => {
        ]
     },
     {
-      path: "/resident",
+      path: "/",
       element: <ResidentLayout />,
       children: [
         {
-          path: "dashboard",
+          path: "/resident/dashboard",
           element: <ResidentDashBoard />,
         },
         {
-          path: "personaldetails",
+          path: "/resident/personaldetails",
           element: <PersonalDetail />,
         },
         {
-          path: "personaldetailtenant",
+          path: "/resident/personaldetailtenant",
           element: <PersonalDetailTenant />,
         },
         {
-          path: "serviceandcomplaint",
+          path: "/resident/serviceandcomplaint",
           element: <ServiceAndComplaint />,
         },
         {
-          path: "eventparticipation",
+          path: "/resident/eventparticipation",
           element: <EventParticipation />,
         },
         {
-          path: "activityparticipate",
+          path: "/resident/activityparticipate",
           element: <ActivityParticipaes />,
         },
         {
-          path: "AccessForums",
+          path: "/resident/AccessForums",
           element:<AccessForums />,
         },
         {
-          path:"Polls",
+          path:"/resident/Polls",
           element:<PollApp/>
         },
         {
-          path:"cd",
+          path:"/resident/cd",
           element:<Community/>
         },
         {
-          path:"Community-Question",
+          path:"/resident/Community-Question",
           element:<CommunityQuestion/>
         },
         {
-          path:"maintananceinvoice",
+          path:"/resident/maintananceinvoice",
           element:<MaintenanceInvoices/>
         },
         {
-          path:"OtherIncomeInvoice",
+          path:"/resident/OtherIncomeInvoice",
           element:<OtherIncomeInvoice/>
           
         }
         ,
         {
-          path: "residentsecurityprotocols",
+          path: "/resident/residentsecurityprotocols",
           element: <ResidentSecurityProtocols />,
         },
         {
-          path: "EditProfile",
+          path: "/resident/EditProfile",
           element: <EditProfile/>,
         },
         
       ],
     },
-    {
-      path: "/",
-      element: <Register />
-    },
-    {
-      path: "/login",
-      element: <Login />
-    },
-    {
-      path: "/forgetPassword",
-      element: <ForgetPassword />,
-    },
-    {
-      path: "/verifyOtp",
-      element: <VerifyOtp />,
-    },
-    {
-      path: "/resetPassword",
-      element: <ResetPassword />,
-    }
+    // {
+    //   path: "/",
+    //   element: <Register />
+    // },
+    // {
+    //   path: "/login",
+    //   element: <Login />
+    // },
+    // {
+    //   path: "/forgetPassword",
+    //   element: <ForgetPassword />,
+    // },
+    // {
+    //   path: "/verifyOtp",
+    //   element: <VerifyOtp />,
+    // },
+    // {
+    //   path: "/resetPassword",
+    //   element: <ResetPassword />,
+    // }
 
   ]
   , {

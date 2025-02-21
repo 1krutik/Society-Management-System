@@ -142,7 +142,7 @@ function PersonalDetail() {
               {/* Left Side - Profile Image */}
               <div className="col-12 col-lg-2 d-flex flex-column align-items-center mb-3 mb-lg-0">
                 <img
-                  src="../Images/personalprofile.png"
+                  src="../src/Images/Profileimg.png"
                   className="img-thumbnail rounded-circle"
                   alt="Profile"
                   style={{ width: "120px", height: "120px" }}
